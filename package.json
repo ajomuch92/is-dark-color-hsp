@@ -1,0 +1,26 @@
+{
+  "name": "is-dark-color-hsp",
+  "version": "1.0.0",
+  "description": "Package to detect if a color is dark or not",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajomuch92/is-dark-color-hsp.git"
+  },
+  "keywords": [
+    "color",
+    "dark",
+    "ligh",
+    "determine",
+    "javascript"
+  ],
+  "author": "Aarón Montes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ajomuch92/is-dark-color-hsp/issues"
+  },
+  "homepage": "https://github.com/ajomuch92/is-dark-color-hsp#readme"
+}
