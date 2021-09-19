@@ -12,10 +12,11 @@ This package helps to determine if a color is dark tone or light tone. It's usef
 
 ```javascript
 import isDarkColorHsp from 'is-dark-color'
-// obvious
+
 const whiteIsDark = isDarkColorHsp.isDark('#ffffff'); // false
 const blackIsDark = isDarkColorHsp.isDark('rgb(0, 0 , 0)'); // true
 const otherColor = isDarkColorHsp.isLight('#ff9900'); // true
+const otherColor2 = isDarkColorHsp.isLight('ff9900'); // true [hex without #]
 const nonColor = isDarkColorHsp.isDark({}); // null
 
 ```
