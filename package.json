@@ -1,6 +1,6 @@
 {
   "name": "is-dark-color-hsp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Package to detect if a color is dark or not",
   "main": "index.js",
   "scripts": {

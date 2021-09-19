@@ -3,14 +3,12 @@ export default {
     if (typeof color !== 'string')
       return null;
     let r, g, b;
-    const newColor = color.replace(/#/g, '');
-    const parseHex = parseInt(newColor, 16)
     if (color.match(/^rgb/)) {
       color = color.match(/^rgba?\((\d+),\s*(\d+),\s*(\d+)(?:,\s*(\d+(?:\.\d+)?))?\)$/);
       r = color[1];
       g = color[2];
       b = color[3];
-    } else if (!isNaN(parseHex) && parseHex < 4096) {
+    } else if (/^#([0-9A-F]{3}){1,2}$/i.test(color)) {
       color = +("0x" + color.slice(1).replace(color.length < 5 && /./g, '$&$&'));
       r = color >> 16;
       g = color >> 8 & 255;
