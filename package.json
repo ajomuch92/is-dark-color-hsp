@@ -1,9 +1,14 @@
 {
   "name": "is-dark-color-hsp",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "Package to detect if a color is dark or not",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
   "scripts": {
+    "build": "npx tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,5 +27,11 @@
   "bugs": {
     "url": "https://github.com/ajomuch92/is-dark-color-hsp/issues"
   },
-  "homepage": "https://github.com/ajomuch92/is-dark-color-hsp#readme"
+  "homepage": "https://github.com/ajomuch92/is-dark-color-hsp#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.3"
+  }
 }
