@@ -10,6 +10,7 @@
         "forceConsistentCasingInFileNames": true,
         "jsx": "react",
         "lib": ["es6", "dom"],
+        "removeComments": true
     },
     "include": [
         "."
